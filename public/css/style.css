@@ -29,7 +29,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-top: -35px;
   color: #fff;
-  margin-left: -6px !important;
+  margin-left: -16px !important;
   margin-top:-34px !important;
 }
 
@@ -40,7 +40,7 @@ body {
   border-width: 7px 7px 0 5px;
   border-color: #4096ee transparent transparent transparent;
   position: absolute;
-  bottom: 3px;
+  bottom: -6px;
   left: 3px;
   content: ".";
   overflow: hidden;

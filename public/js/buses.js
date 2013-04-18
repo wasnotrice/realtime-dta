@@ -54,7 +54,7 @@
 
     bus = buses[bus_ref.name()];
     if (typeof bus !== "undefined") {
-      map.removeOverlay(bus.marker);
+      bus.marker.setMap(null);
       return delete buses[bus_ref.name()];
     }
   });

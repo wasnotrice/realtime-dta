@@ -27,7 +27,6 @@
       icon: "#"
     });
     return buses[firebase_id] = {
-      bus: bus,
       marker: marker
     };
   };

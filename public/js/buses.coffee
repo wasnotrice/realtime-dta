@@ -18,9 +18,7 @@ add_bus = (bus, firebase_id) ->
     labelClass: "route_card"
     icon: "#"
   )
-  buses[firebase_id] = 
-    bus: bus
-    marker: marker
+  buses[firebase_id] = marker: marker
 
 firebus.once "value", (agency_ref) ->
   agency_ref.forEach (bus_ref) -> 

@@ -4,12 +4,8 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "firebase": "0.5.1",
-    "async": "~0.2.7",
-    "underscore": "~1.4.4",
-    "quest": "~0.1.10",
-    "crc": "~0.2.0",
-    "coffee-script": "~1.6.2"
+    "coffee-script": "~1.6.2",
+    "express": "~3.2.0"
   },
   "engines": {
     "node": "0.8.8",

@@ -1,1 +1,1 @@
-worker: coffee scraper.coffee
+web: coffee server.coffee

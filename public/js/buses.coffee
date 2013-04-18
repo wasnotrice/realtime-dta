@@ -36,5 +36,5 @@ firebus.on "child_changed", (bus_ref) ->
 firebus.on "child_removed", (bus_ref) ->
   bus = buses[bus_ref.name()]
   if typeof bus isnt "undefined"
-    map.removeOverlay(bus.marker)
+    bus.marker.setMap(null)
     delete buses[bus_ref.name()]
